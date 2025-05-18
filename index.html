@@ -1,1 +1,109 @@
-<h1>my portfolio</h1>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>رزومه صادق حیاتی</title>
+    <link rel="stylesheet" href="https://cdnjs.cludeflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<style>
+    body{
+        font-family: tahoma,sans-serif;
+        direction: rtl;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(211, 203, 194);
+
+    }
+    .container{
+        max-width: 1500px;
+        margin: auto;
+        padding: 40px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .avatar{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: gray ;
+    background-size: cover;
+    background-position: center;
+}
+    .info{
+        flex-grow: 1;
+
+}
+    .info h1{
+     font-size: 28px;
+     margin: 0;
+    }
+    .info p.field{
+        font-weight: bold;
+        margin: 5px 0 0 15px;
+    }
+    .social a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: blue;
+    }
+    .content{
+        display: flex;
+        gap: 40px;
+    }
+    .left {
+        flex: 7;
+    }
+    .right{
+        flex: 3;
+    }
+    
+    h2 {
+      border-bottom: 1px solid gray;
+      padding-bottom: 5px;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="top">
+                <div class="avatar" style="background-image: url('pic/c.jpg');"></div>
+                <div class="info"><h1>رزومه صادق حیاتی</h1><p class="field">مهندسی کامپیوتر</p>
+                <div class="social"><a href="mailto:mr.sadegh8@gmail.com"><i class="fas fa-envelope"></i>mr.sadegh8@gmail.com</a>
+                <a href="https://github.com/sadeqhyt"><i class="fab fa-github"></i>sadeqhyt</a>
+                </div>
+                </div>
+        </div>
+            <div class="content">
+                <div class="left">
+                    <h2>سوابق کاری</h2>
+                    <p>ندارم</p>
+                </div>
+                <div class="right">
+                    <h2>تحصیلات</h2>
+                <ul>
+                    <li>کارشناسی مهندسی کامپیوتر دانشگاه علوم و فنون هوایی شهید ستاری</li>
+                    <li>معدل:14</li>
+                    <li>اشنایی </li>
+                </ul>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
