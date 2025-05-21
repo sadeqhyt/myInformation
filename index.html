@@ -105,7 +105,29 @@
     .num{
         font-size: small;
     }
+form {
+  margin-top: 15px;
+}
 
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+}
+button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #0056b3;
+}
 </style>
 <body>
     <div class="container">
@@ -117,6 +139,11 @@
                     <a href="https://github.com/sadeqhyt"  title="github" target="_blank" rel="noopener noreferrer"><img class="" src="pic/Github-512.webp" alt="github"></a>
                     <a href="https://instagram.com/sadeqhyt" title="instagram" target="_blank" rel="noopener noreferrer"><img class="" src="pic/instagram-63.webp" alt="instagram"></a>
                 </div>
+                <form>
+                    <label for="email">جیمیل خودرا وارد کنید</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    <button type="submit">ثبت</button>
+                </form>
                 </div>
         </div>
             <div class="content">
